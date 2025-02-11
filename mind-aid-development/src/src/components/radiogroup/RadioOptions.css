@@ -1,0 +1,16 @@
+.RadioGroup .MuiFormControlLabel-root .MuiTypography-root {
+  font-family: customFonts;
+}
+
+.MuiFormControl-root .MuiFormGroup-root .MuiFormControlLabel-root .Mui-checked,
+.MuiFormControlLabel-root .Mui-checked {
+  color: #052e65;
+}
+
+.RadioSelectionSection {
+  text-align: center!important;
+}
+
+.RadioGroup .MuiFormControlLabel-root{
+  margin-bottom: 0px;
+}

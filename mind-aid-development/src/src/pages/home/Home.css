@@ -1,0 +1,107 @@
+.navbar-menu {
+  display: flex;
+  flex-direction: row; /* Default to row for larger screens */
+}
+
+.navbar-item {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Styles for mobile view only */
+@media only screen and (max-width: 375px) {
+  .navbar-menu {
+    flex-direction: column; /* Stack items vertically */
+    position: absolute;
+    top: 60px; /* Adjust based on your layout */
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    display: block; /* Make the menu visible */
+  }
+
+  .navbar-item {
+    padding: 12px; /* Increase padding for better touch targets */
+    font-size: 16px; /* Adjust font size for readability */
+    width: 100%; /* Make items take up full width */
+    text-align: center; /* Center text */
+    border-bottom: 1px solid #444; /* Add border for separation */
+  }
+
+  .navbar-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+  }
+
+  .navbar-toggle {
+    display: block; /* Ensure the toggle button is visible */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-item {
+    padding: 10px; /* Further adjust padding for smaller screens */
+    font-size: 14px; /* Further adjust font size */
+  }
+}
+
+/* Other existing styles ... */
+
+.course-main-section .courses-div {
+  background-image: url("./../../images/aboutImg.jpg");
+  background-size: 100% 100%;
+  align-content: baseline;
+  justify-content: end;
+  height: 400px;
+}
+
+.mindAidImg {
+  height: 550px;
+}
+
+.course-main-section .courses-div .coursesBtn {
+  background-color: #fe8875;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.course-main-section #VideoActivityMainSection .about-video-section {
+  background-color: #fe8875;
+  cursor: pointer;
+}
+
+.course-main-section #VideoActivityMainSection {
+  border: 1px solid #fe8875;
+  box-shadow: 0 3px 6px #f370214d;
+  border-radius: 5px;
+}
+
+.bookmark-section {
+  padding-top: 30px;
+}
+
+.bookmark-section hr {
+  width: 50px;
+  height: 3px;
+  margin: 0px;
+  color: #fe8875;
+}
+
+.aboutCourses {
+  padding: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .mindAidImg {
+    height: 100%;
+    width: 100%;
+  }
+
+  .aboutCourses {
+    padding: 1rem;
+  }
+}

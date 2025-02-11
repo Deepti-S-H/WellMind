@@ -1,0 +1,32 @@
+.textThemeBlue{
+  color:#181d38;
+  font-family: "segoe print";
+  font-weight: bold;
+}
+.linksColor{
+    color: #06BBCC;
+}
+
+.textAlignleft{
+    text-align: left;
+}
+
+.fontbold{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    .module4-main-secton{
+        padding: 8px !important;
+    }
+    
+    .custom-table{
+        max-width: 100% !important;
+    }
+    .customtablem5{
+        width: 100% !important;
+    }
+    .answereheretextaream8{
+        width: -webkit-fill-available !important;
+    }
+}

@@ -1,0 +1,34 @@
+.dialog-title {
+    color: chocolate;
+  }
+  
+  .dialog-content-text {
+    color: black;
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .agree-button {
+    background-color: #ff8776;
+    text-transform: none;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    .dialog-title,
+    .dialog-content-text {
+      text-align: center;
+    }
+  
+    .dialog-actions {
+      justify-content: center;
+    }
+  
+    .agree-button {
+      width: 100%;
+    }
+  }
+  

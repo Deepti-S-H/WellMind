@@ -1,0 +1,16 @@
+.moduleHeaderDesc{
+    font-size: 1.3rem;  
+    text-align: justify;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+@media only screen and (max-width:768px){
+    .moduleHeaderDesc{
+        font-size: 1rem;  
+        text-align: justify;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    
+}

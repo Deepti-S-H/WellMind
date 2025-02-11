@@ -1,0 +1,26 @@
+.pre-test-title {
+    color: rgb(254, 136, 117);
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child {
+    text-align: left;
+}
+
+.custom-table th:not(:first-child),
+.custom-table td:not(:first-child) {
+    text-align: center;
+}
+
+.custom-table {
+    max-width: 40%;
+}
+
+.Mui-checked {
+    color: rgb(254, 136, 117);
+}
+
+.form-control:focus {
+    border-color: #fe8875;
+    box-shadow: 0 3px 6px #f370214d;
+}

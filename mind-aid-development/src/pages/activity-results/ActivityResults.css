@@ -1,0 +1,34 @@
+.accordion {
+    border: 1px solid #fe8875;
+    box-shadow: 0 3px 6px #f370214d;
+    border-radius: 5px;
+}
+
+.MuiAccordionSummary-root:hover {
+    background: #fe8875;
+    color: white;
+}
+
+.activity-result-main-section .Mui-expanded {
+    margin: 0px !important;
+}
+
+.Mui-expanded .MuiAccordionSummary-root {
+    background: #fe8875;
+    color: white;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+    min-height: 50px !important;
+}
+
+.activity-result-main-section .MuiAccordion-root {
+    margin-bottom: 10px !important;
+}
+@media only screen and (max-width:768px){
+    .activity-result-main-section {
+        padding-left:1rem !important;
+        padding-right: 1rem !important;
+        
+    }
+}

@@ -1,0 +1,60 @@
+.view-details-completed-btn{
+    color:black;
+    cursor: none;
+    pointer-events: none;
+    background: white;
+}
+
+.card-content-in-progress{
+    background: lightgoldenrodyellow;
+}
+
+.card-content-completed, .card-content-yetToStart, .card-content-in-progress {
+    display: inline-grid;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+}
+
+.card-content-completed:hover, .card-content-yetToStart:hover, .card-content-in-progress:hover {
+    transform: scale(1.1);
+}
+
+.card-content-completed, .card-content-pending, .card-content-pending {
+    display: inline-grid;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+}
+
+.card-content-completed:hover, .card-content-pending:hover, .card-content-pending:hover {
+    transform: scale(1.1);
+}
+
+
+.card-content-yetToStart{
+    background: #979494;
+    opacity: 0.7;
+    cursor: no-drop; 
+}
+.card-content-pending{
+    background: #fe8875;    
+}
+.card-content-completed{
+    background: darkseagreen;
+    opacity: 0.7; 
+    cursor: no-drop; 
+}
+
+.view-details-in-progress-btn{
+    background: white;
+
+}
+.view-details-yetToStart-btn{
+    cursor: no-drop;
+    pointer-events: none;
+    background: white;
+}
+
+.view-details-pending-btn{
+   
+    background: white;
+}

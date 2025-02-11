@@ -1,0 +1,21 @@
+.table .tableHeaderCell,
+.table .tableBody .tableBodyCell {
+  font-family: customFonts;
+}
+
+.table, .table th,
+td {
+  border: 1px solid black;
+}
+tbody, td, th, thead, tr, 
+.module4-main-secton .MuiTableCell-root,
+.module6-main-secton .MuiTableCell-root
+ {
+    border: 1px solid black;
+}
+
+.module6-main-secton .MuiTable-root,
+.module4-main-secton .MuiTable-root {
+    border-collapse: collapse;
+}
+

@@ -1,0 +1,63 @@
+.LoginFormLabels {
+  text-align: left;
+  font: normal normal 600 12px/14px customFonts;
+  letter-spacing: 0px;
+  color: #3d5d86;
+  opacity: 1;
+}
+
+.LoginFieldStyle {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #3d5d86 !important;
+  border-radius: 3px;
+  opacity: 0.93;
+  font: normal normal 600 12px/14px customFonts;
+}
+
+.BrowseFieldStyle {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border: 1px solid #a7a7b2 !important;
+  border-radius: 0px;
+  font: normal normal 600 12px/14px customFonts;
+}
+
+.BrowseFieldStyle[disabled] {
+  pointer-events: none;
+  cursor: no-drop;
+}
+
+.LoginFieldStyle .MuiOutlinedInput-notchedOutline,
+.BrowseFieldStyle .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.LoginFieldStyle .MuiOutlinedInput-root .MuiOutlinedInput-input,
+.BrowseFieldStyle .MuiOutlinedInput-root .MuiOutlinedInput-input {
+
+  font: normal normal normal 16px/19px customFonts;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: left;
+  padding: 0px;
+}
+
+
+
+.LoginFieldStyle .MuiInputBase-root,
+.BrowseFieldStyle .MuiInputBase-root {
+  padding: 0px;
+  margin: 0px;
+  height: 33px;
+}
+
+.BrowseFieldStyle
+.ChooseFileText{
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    min-height: 33px;
+    font: normal normal normal 16px/19px customFonts;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}

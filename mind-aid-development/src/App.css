@@ -1,0 +1,90 @@
+body {
+  font-family: customFonts;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .App {
+    text-align: center;
+    padding: 2px;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b7c0cb;
+  border-radius: 6px;
+}
+
+.Mui-checked {
+  color: #fe8875 !important;
+}
+
+.active-btn {
+  background: #ff8776;
+  color: White;
+  cursor: pointer;
+  border: 1px solid #ff8776;
+}
+
+.inactive-btn {
+  background: #ff8776;
+  opacity: 0.5;
+  cursor: no-drop;
+  pointer-events: none;
+  color: White;
+  cursor: pointer;
+  border: 1px solid #ff8776;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}

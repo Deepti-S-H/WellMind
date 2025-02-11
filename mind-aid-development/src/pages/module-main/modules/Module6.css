@@ -1,0 +1,35 @@
+.pre-test-title {
+    color: rgb(254, 136, 117);
+}
+
+.experience-table th:first-child,
+.experience-table td:first-child {
+    text-align: left;
+}
+
+.experience-table th:not(:first-child),
+.experience-table td:not(:first-child) {
+    text-align: center;
+}
+
+.experience-table {
+    max-width: 40%;
+}
+
+.Mui-checked {
+    color: rgb(254, 136, 117);
+}
+
+.form-control:focus {
+    border-color: #fe8875;
+    box-shadow: 0 3px 6px #f370214d;
+}
+
+@media only screen and (max-width:768px){
+    .module6-main-secton{
+        padding: 8px !important;
+    }
+    .experience-table {
+        max-width: 100%;
+    }
+}

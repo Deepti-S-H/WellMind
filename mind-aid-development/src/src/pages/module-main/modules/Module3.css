@@ -1,0 +1,36 @@
+.risk-factor table tr:last-child td,
+.risk-factor thead tr th {
+    border-bottom: 1px solid black;
+}
+.risk-factor th:first-child,
+.risk-factor td:first-child {
+    text-align: left;
+}
+
+.risk-factor th:not(:first-child),
+.risk-factor td:not(:first-child) {
+    text-align: center;
+}
+
+.risk-factor table {
+    border-collapse: none;
+}
+
+.risk-factor table tr:first-child td {
+    border-top: none;
+}
+
+.risk-factor thead tr th:not(:last-child),
+.risk-factor td:not(:last-child) {
+    border-right: none;
+}
+
+@media only screen and (max-width:768px){
+    .module3-main-section{
+        padding: 8px !important;
+    }
+    .academicStsImg{
+        width: 100% !important;
+        height: auto !important;
+    }
+}

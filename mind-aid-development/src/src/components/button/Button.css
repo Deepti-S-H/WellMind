@@ -1,0 +1,26 @@
+.ButtonGrid .inactiveButton[disabled] {
+  padding: 10px 15px;
+  pointer-events: none;
+  opacity: 0.5;
+  border: 2px solid #3675b7;
+  font: normal normal bold 14px/16px customFonts;
+  color: #4f57a6;
+  text-transform: none;
+  outline: none;
+}
+
+.ButtonGrid .activeButton,
+.ButtonGrid .activeButton:hover {
+  text-transform: none;
+  padding: 10px 15px;
+  border: 2px solid #3675b7;
+  font: normal normal bold 14px/16px customFonts;
+  color: #4f57a6;
+  text-transform: none;
+  opacity: 1;
+  outline: none;
+}
+
+.ButtonGrid {
+  align-self: center;
+}

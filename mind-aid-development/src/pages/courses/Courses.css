@@ -1,0 +1,61 @@
+.course-modules-main .about-videos-section-title {
+    font-weight: bold;
+    color: #fe8875;
+  }
+  
+  .course-modules-main .about-video {
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .course-modules-main .about-videos-section {
+    border: 1px solid #fe8875;
+    box-shadow: 0 3px 6px #f370214d;
+    border-radius: 5px;
+  }
+
+  .course-description {
+    font-size: 13px;
+  }
+
+  .course-modules-main hr {
+    height: 3px;
+    color: rgb(254, 136, 117);;
+  }
+  
+  .row .about-videos-section{
+    display: flex;
+  }
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+  
+
+  @media only screen and (max-width:768px){
+    .row .about-videos-section{
+      display: block;
+    }
+    
+    .row {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(var(--bs-gutter-y)* -1);
+      margin-right: calc(var(--bs-gutter-x)* 0);
+      margin-left: calc(var(--bs-gutter-x)* -.5);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .moduleDetails {
+    width: 100%;
+    padding: 1rem;
+  }
+}
